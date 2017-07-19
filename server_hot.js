@@ -19,7 +19,7 @@ app.use(require('webpack-dev-middleware')(compiler, {
 
 //代理服务器
 app.use('/shopro', proxyMiddleware({
-    target: 'http://cangdu.org',
+    target: 'https://waptest.toubaojia.com',
     changeOrigin: true,
 }))
 
@@ -31,5 +31,5 @@ app.get('*', function(req, res) {
 });
 
 app.listen(9090, function() {
-    console.log('正常打开9090端口')
+    console.log('正常打开9090端口');
 });

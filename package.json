@@ -1,23 +1,22 @@
 {
-  "name": "pxq",
+  "name": "tbj",
   "version": "1.0.1",
   "description": "react-demo",
   "main": "server.js",
   "scripts": {
     "dev": "node server.js",
     "hot": "node server_hot.js",
-    "dist": "webpack --config webpack.config.dist.js --progress --colors --watch -p"
+    "release": "webpack --config webpack.config.dist.js --progress --colors --watch -p"
   },
   "repository": {
     "type": "github",
-    "url": "https://github.com/bailicangdu/pxq"
+    "url": "https://github.com/chenrunsheng1991/tbj-react"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bailicangdu/pxq/issues"
+    "url": "https://github.com/chenrunsheng1991/tbj-react"
   },
-  "homepage": "https://github.com/bailicangdu/pxq#readme",
   "dependencies": {
     "github-markdown-css": "^2.4.0",
     "immutable": "^3.8.1",
